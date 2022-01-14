@@ -3,7 +3,7 @@ Bewerbung Aufgabe für IU (Internationale Hochschule)
 ## _Aufgabe Beschreibung:_ 
 
 ### _Data-Developer – Task_ 
-Deine Aufgabe ist es **alle** Informationen (Characters, Planets, Title, Producer, …) zu den Filmen der Star  [Wars API](https://swapi.dev) 
+Deine Aufgabe ist es **alle** Informationen (Characters, Planets, Title, Producer, …) zu den Filmen der [Star Wars API](https://swapi.dev) 
 zu crawlen und zu speichern. Der Rest kann verworfen werden. Die Daten sollen in einem **„Sternschema“** oder
 **„Schneeflockenschema“** transformiert und in einer **MariaDB** abgelegt werden, möglichst ohne _Doppelungen_ in den Daten.
 Welches Schema besser passt, sollst du selbst entscheiden und begründen können. Die Performance ist zweitrangig, sondern
