@@ -14,4 +14,7 @@ RUN pip install -r requirements.txt
 
 # Run app.py when the container launches
 COPY app.py /app
-CMD python app.py
+COPY crawling_people.py /app
+COPY crawling_films.py /app
+CMD python crawling_people.py && python crawling_films.py && python app.py
+#CMD python app.py
