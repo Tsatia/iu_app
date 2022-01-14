@@ -141,11 +141,12 @@ def load_all_data():
         connection.commit()
         cursor.close()
         connection.close()
-        print("Successfully added entry to databse --> People Table")
+        print("Successfully added entry to database --> People Tables")
     except Exception as e:
         print(f"error adding entry to database: {e}")
 
 
 if __name__ == '__main__':
-    time.sleep(50)  # wait for the server to start up
+    print("Waiting for Server to start ...")
+    time.sleep(40)  # wait for the server to start up
     load_all_data()

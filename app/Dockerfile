@@ -16,5 +16,9 @@ RUN pip install -r requirements.txt
 COPY app.py /app
 COPY crawling_people.py /app
 COPY crawling_films.py /app
-CMD python crawling_people.py && python crawling_films.py && python app.py
-#CMD python app.py
+COPY crawling_starships.py /app
+COPY crawling_vehicles.py  /app
+COPY crawling_species.py /app
+COPY crawling_planets.py /app
+CMD python crawling_people.py && python crawling_planets.py && python crawling_species.py && python crawling_vehicles.py && python crawling_starships.py && python crawling_films.py && python app.py
+
