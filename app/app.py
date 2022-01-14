@@ -12,12 +12,13 @@ def name_description() -> List[Dict]:
         'password': 'root',
         'host': 'db',
         'port': 3306,
-        'database': 'iu_test_db'
+        'database': 'start_wars_db'
     }
+
     connection = mariadb.connect(**config)
     cursor = connection.cursor()
-    cursor.execute('SELECT * FROM iu_test')
-    results = [{name: description} for (name, description) in cursor]
+    cursor.execute('SELECT film_id, link FROM films inner join film_characters ON films.film_character_id = film_characters.film_character_id')
+    results = [{person_id: person_film_id} for (person_id, person_film_id) in cursor]
     cursor.close()
     connection.close()
 
