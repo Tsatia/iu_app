@@ -14,3 +14,5 @@ in Python entwickelt und mithilfe eines Frameworks (z.B. Flask) umgesetzt werden
 Endpunkten der Star Wars API entsprechen (/films/1, /vehicles/14 oder auch /people/ um alle abzurufen). Die Web-API kann
 (muss aber nicht) in einem Docker Container integriert und lauffähig sein. Gerne kann die Web-API und die MariaDB auch in
 einem Docker-Compose zusammengefasst werden.
+
+ PW: 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
