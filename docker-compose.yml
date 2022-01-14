@@ -1,4 +1,4 @@
-version: "2"
+version: "2.1"
 services:
   app:
     build: ./app
@@ -7,10 +7,13 @@ services:
     ports:
       - "5000:5000"
 
+# Use the latest runtime as an image
   db:
     image: mariadb:latest
     ports:
-      - "3200:3306"
+      - "3306:3306"
+    expose:
+      - "3306"
     environment:
       MYSQL_ROOT_PASSWORD: root
     volumes:
