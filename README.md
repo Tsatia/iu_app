@@ -25,4 +25,4 @@ Endpunkten der Star Wars API entsprechen (/films/1, /vehicles/14 oder auch /peop
 (muss aber nicht) in einem Docker Container integriert und lauffähig sein. Gerne kann die Web-API und die MariaDB auch in
 einem Docker-Compose zusammengefasst werden.
 
-Password: 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
+Password: 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
