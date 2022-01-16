@@ -1,12 +1,14 @@
 Bewerbung Aufgabe für IU (Internationale Hochschule)
 
 ## About the project:
+- I did crawl all the data (not only films). Hope this is not a problem
 - Navigate to the folder where docker-compose.yml is located
-- Run (sudo) docker-compose up
+- Run (sudo) docker-compose up (There is a time sleep of 50 seconds to make sure the server is running. Please be patient)
 - Run (sudo) docker-compose up --build --remove-orphans 
 - Run (sudo) docker-compose down to stopp all containers
 - The entry point of the API is http://0.0.0.0:5000/
 - e.g. http://0.0.0.0:5000/people/1 to get the data of the first person
+- In the db folder you can find a snowflake schema for the db
 
 ## _Aufgabe Beschreibung:_ 
 

@@ -148,5 +148,5 @@ def load_all_data():
 
 if __name__ == '__main__':
     print("Waiting for Server to start ...")
-    time.sleep(60)  # wait for the server to start up
+    time.sleep(50)  # wait for the server to start up
     load_all_data()
