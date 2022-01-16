@@ -1,5 +1,13 @@
 Bewerbung Aufgabe für IU (Internationale Hochschule)
 
+## About the project:
+- Navigate to the folder where docker-compose.yml is located
+- Run (sudo) docker-compose up
+- Run (sudo) docker-compose up --build --remove-orphans 
+- Run (sudo) docker-compose down to stopp all containers
+- The entry point of the API is http://0.0.0.0:5000/
+- e.g. http://0.0.0.0:5000/people/1 to get the data of the first person
+
 ## _Aufgabe Beschreibung:_ 
 
 ### _Data-Developer – Task_ 
@@ -15,4 +23,4 @@ Endpunkten der Star Wars API entsprechen (/films/1, /vehicles/14 oder auch /peop
 (muss aber nicht) in einem Docker Container integriert und lauffähig sein. Gerne kann die Web-API und die MariaDB auch in
 einem Docker-Compose zusammengefasst werden.
 
- PW: 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
+Password: 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

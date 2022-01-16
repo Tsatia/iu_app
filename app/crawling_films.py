@@ -133,7 +133,7 @@ def load_all_data():
                                          characters_links[index][1],
                                          "link",
                                          cursor)
-                add_film_associated_data("flm_planet", planets_links[index][0], "film_planet_id",
+                add_film_associated_data("film_planet", planets_links[index][0], "film_planet_id",
                                          planets_links[index][1],
                                          "link",
                                          cursor)
