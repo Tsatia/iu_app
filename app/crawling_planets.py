@@ -121,5 +121,4 @@ def load_all_data():
 
 
 if __name__ == '__main__':
-    time.sleep(50)
     load_all_data()
